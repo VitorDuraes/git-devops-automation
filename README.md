@@ -11,3 +11,8 @@ Este projeto é um exemplo prático para aprender Git e controle de versão. Ele
 
 ## 🛠 Estrutura do Projeto
 
+### Adicionando conteudo remotamente
+
+-----
+
+## Como trabalhar com o git
