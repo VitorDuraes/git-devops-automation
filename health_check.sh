@@ -18,7 +18,7 @@ else
    echo "REDE: FALHA - Servidor não responde ao ping."
 fi
 
-HTTP_STATUS=$(curl -s -o /dev/nuçç -w "%{http-code}" http://$1)
+HTTP_STATUS=$(curl --max-time 5 -s -o /dev/null -w "%{http_code}" http://$1)
 
 if [ $HTTP_STATUS -eq 200 ]; then
    echo "SERVIÇOR WEB: OK - Status HTTP é 200."
